@@ -1,4 +1,4 @@
-## [Live Site](https://idyllic-otter-ffc189.netlify.app/home)
+## [Live Site](https://idyllic-otter-ffc189.netlify.app/)
 
 MERN Mobile Food Delivery Application
 
