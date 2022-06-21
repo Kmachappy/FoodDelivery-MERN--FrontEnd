@@ -75,10 +75,12 @@ export default function Main(){
     return(
         <Routes>
             <Route
+                exact
                 path="/"
                 element={<MainPage/>}   
             />
             <Route
+                exact
                 path="/home" 
                 element={<Home 
                     restaurants={restaurants}
@@ -86,6 +88,7 @@ export default function Main(){
                 />}
             />
             <Route
+            exact
                 path="/restaurant/:id"  
                 element={<Show
                     restaurants={restaurants}
@@ -93,12 +96,14 @@ export default function Main(){
                 />}
             />
             <Route
+            exact
                 path="/create"
                 element={<Create
                     createRestaurant={createRestaurant}
                 />}
             />
             <Route
+            exact
                 path="/update/:id"
                 element={<Update
                     updateRestaurant={updateRestaurant}
